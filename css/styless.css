@@ -689,6 +689,12 @@ a {
     
 }
 
+.clients-btn__icon:hover,
+.clients-btn__icon:focus {
+    border: 1px solid var(--accent-color);
+}
+
+
 
 .clients-btn__icon-svg{
     fill: #AFB1B8;
