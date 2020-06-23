@@ -14,7 +14,7 @@
         <nav class="container main-nav">
             <a href="./index.html" class="logo">Web<span class="logo-studio">Studio</span></a>
         <ul class="site-nav">
-            <li class="site-nav__item"> <a href="./index.html" class="site-nav__link">Студия</a></li>
+            <li class="site-nav__item"> <a href="./index.html" class="site-nav__link-current">Студия</a></li>
             <li class="site-nav__item"> <a href="./portfolio.html" class="site-nav__link">Портфолио</a></li>
             <li class="site-nav__item"> <a href="" class="site-nav__link">Контакты</a></li>
         </ul>
@@ -189,6 +189,69 @@
                   <p class="copyright-text">2020 | Developed by Victoria Plis</p>
                 </section>--> 
             </footer>
+
+            <!--
+            <form class="js-form">
+                <p class="form-name">Оставьте свои данные, мы вам перезвоним</p>
+                <div class="form-field">
+                  <label for="name" class="form-label">Имя</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder=" "
+                    autofocus
+                  />
+                </div>
+          
+                <div class="form-field">
+                  <label for="tel" class="form-label">Телефон</label>
+                  <input type="tel" name="tel" id="tel" placeholder="" />
+                </div>
+          
+                <div class="form-field">
+                  <label for="mail" class="form-label">Почта</label>
+                  <input type="email" name="mail" id="mail" placeholder="" />
+                </div>
+          
+                
+          
+                <div class="form-field">
+                  <label for="comment"></label>
+                  <textarea
+                    class="comment"
+                    name="comment"
+                    id="comment"
+                    rows="8"
+                    placeholder="Комментарий"
+                  ></textarea>
+                </div>
+          
+                <div class="form-field__checkbox">
+                  <input type="checkbox" name="policy" id="policy" />
+                  <label for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                </div>
+          
+                <button type="submit">Оставить заявку</button>
+              </form>
+          
+              <script>
+                (() => {
+                  document
+                    .querySelector('.js-speaker-form')
+                    .addEventListener('submit', e => {
+                      e.preventDefault();
+          
+                      new FormData(e.currentTarget).forEach((value, name) =>
+                        console.log(`${name}: ${value}`),
+                      );
+          
+                      e.currentTarget.reset();
+                    });
+                })();
+              </script>
+
+            -->
         
         
         </body>
